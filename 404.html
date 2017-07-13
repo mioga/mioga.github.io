@@ -16,9 +16,11 @@
         --mdc-theme-primary: #d81b60;
         --mdc-theme-accent: #212121;
       }
-      .mdc-toolbar {
-        --mdc-theme-primary: #fafafa;
-        --mdc-theme-text-primary-on-primary: rgba(0, 0, 0, 0.87);
+      @media (min-width: 768px) {
+        .mdc-toolbar {
+          --mdc-theme-primary: #fafafa;
+          --mdc-theme-text-primary-on-primary: rgba(0, 0, 0, 0.87);
+        }
       }
       body {
         display: flex;
@@ -67,6 +69,14 @@
         }
       }
       .markdown-body a {
+        // color: #d81b60;
+      }
+      .markdown-body a:before {
+        content: '[';
+        color: #d81b60;
+      }
+      .markdown-body a:after {
+        content: ']';
         color: #d81b60;
       }
       .markdown-body .mdc-checkbox {
