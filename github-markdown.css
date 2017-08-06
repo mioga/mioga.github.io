@@ -171,11 +171,9 @@
   border-style: none;
 }
 
-/*
 .markdown-body svg:not(:root) {
   overflow: hidden;
 }
-*/
 
 .markdown-body code,
 .markdown-body kbd,
