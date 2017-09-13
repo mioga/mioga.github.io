@@ -13,7 +13,7 @@
     <title>Mioga</title>
     <style>
       :root {
-        --mdc-theme-primary: #d81b60;
+        --mdc-theme-primary: #29B2EE; /* 2D9EE0 3B99FC d81b60 */
         --mdc-theme-accent: #212121;
       }
       @media (min-width: 768px) {
@@ -47,6 +47,15 @@
         height: 100%;
         box-sizing: border-box;
       }
+      .mdc-permanent-drawer-fixed {
+        position:fixed;
+        height: 100%;
+      }
+      @media (min-width: 768px) {
+        .mdc-permenent-drawer-fixed-ajust {
+          margin-left: 240px;
+        }
+      }
       main {
         width: calc(100% - 90px);
         padding: 45px;
@@ -70,11 +79,11 @@
       }
       .markdown-body a:before {
         content: '[';
-        color: #d81b60;
+        color: var(--mdc-theme-primary, #3f51b5);
       }
       .markdown-body a:after {
         content: ']';
-        color: #d81b60;
+        color: var(--mdc-theme-primary, #3f51b5);
       }
       .markdown-body .mdc-checkbox {
         top: 8px;
