@@ -37,7 +37,7 @@
 /* eslint-disable indent, no-unused-vars, no-multiple-empty-lines, max-nested-callbacks, space-before-function-paren, quotes, comma-spacing */
 'use strict';
 
-var precacheConfig = [["404.html","b9f78c81aa314c7b1729648a5cc6d852"],["favicon.png","b4c065d51593f677c8fc2c5349d978b3"],["github-markdown.css","4554479cd8b6eca8726bd325640b0b12"],["icon.png","ce78b1b2f60babbecd20d124b1f53030"],["index.html","b9f78c81aa314c7b1729648a5cc6d852"],["index.js","618ad9f7b63818ab1bd486bea24e70f9"],["manifest.json","93e0cb73340d3c47d769b5785d8396f3"],["material-components-web.css","9c7ed30771a43ffbfd5bd914b1d5490f"],["sw.js","d599166e1442e1f81b31957042aa6190"]];
+var precacheConfig = [["404.html","9eafccc1feff3e021b4b96b9555f06ea"],["favicon.png","f9dc8ac8d9b5ccd6012dc2aa9a38aef5"],["github-markdown.css","4554479cd8b6eca8726bd325640b0b12"],["icon.png","ce78b1b2f60babbecd20d124b1f53030"],["index.html","9eafccc1feff3e021b4b96b9555f06ea"],["index.js","ca3c086e436932d4f2ccc1899635b855"],["manifest.json","93e0cb73340d3c47d769b5785d8396f3"],["material-components-web.css","9c7ed30771a43ffbfd5bd914b1d5490f"],["sw.js","78332be1e3afbec78eeaa0fa9c4684e8"]];
 var cacheName = 'sw-precache-v3-mioga-' + (self.registration ? self.registration.scope : '');
 
 
